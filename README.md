@@ -3,6 +3,7 @@ This repo contains a node lib consisting of a number of algorithmic based proble
 included the function signature & some basic unit tests.
 
 This was built using the following:
+* yarn 1.22.10
 * Node 12.16.3
 * Jest 26.6.3
 * No thought or consideration for best practices or concise code
@@ -12,6 +13,7 @@ This was built using the following:
 only. We have set up the base project using Jest, but you can refactor this to use 1 of the following:
     * Jasmine
     * Mocha + Chai
+* You may also make use of npm if you prefer & that is your preferred package manager
 * Convert this javascript lib into a typescript lib (all code __and__ unit tests)
 
 
