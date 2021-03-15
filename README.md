@@ -8,8 +8,12 @@ This was built using the following:
 * No thought or consideration for best practices or concise code
 
 ## Instructions
-Complete the 2 algorithm problems **without** the use of any external libraries. You may make use of javascript functions 
-only. We have set up the base project using Jest, but you can refactor this to use a node testing library of your preference.
+* Complete the 2 algorithm problems **without** the use of any external libraries. You may make use of javascript functions 
+only. We have set up the base project using Jest, but you can refactor this to use 1 of the following:
+    * Jasmine
+    * Mocha + Chai
+* Convert this javascript lib into a typescript lib (all code __and__ unit tests)
+
 
 __Note:__
 * We have provided some basic test input data, consider edge cases
@@ -88,7 +92,3 @@ the 2 arrays are merged. Modify this array to provide the result.
 |Output|[1]|
  
 <br />
-
-## The assessment is currently setup using Jest, but you make use of any other testing frameworks such as:
-* Jasmine
-* Mocha + Chai
