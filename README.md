@@ -8,11 +8,13 @@ This was built using the following:
 * No thought or consideration for best practices or concise code
 
 ## Instructions
+* Create a fork of this repository in your own GitHub account
 * Complete the algorithm problems **without** the use of any external libraries. You must make use of javascript functions only. We have set up the base project using Jest as the testing framework, but you can refactor this to use 1 of the following if you so choose:
     * Jasmine
     * Mocha + Chai
 * You may also make use of npm if that is your preferred package manager
 * Convert this javascript lib into a typescript lib (all code __and__ unit tests)
+* Once complete, please send a link to your repository to tim@geminisolution.co.za and CC: elrika@geminisolution.co.za.
 
 __Note:__
 * We have provided some basic test input data, consider edge cases
