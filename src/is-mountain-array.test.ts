@@ -1,4 +1,4 @@
-const { isMountainArr } = require('./is-mountain-array');
+import { isMountainArr } from './is-mountain-array';
 
 describe('is mountain array tests', () => {
     test('[3, 5, 5] returns false', () => {
