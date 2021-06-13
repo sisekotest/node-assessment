@@ -1,6 +1,14 @@
 export const mergeSortedArray = (nums1: Array<number>, m: number, nums2: Array<number>, n: number): Array<number> => {
     if (n === 0) return nums1;
 
+    if (m === 0) {
+        nums2.forEach((element, index) => {
+            nums1.splice(index, 1, element);
+        });
+
+        return nums1;
+    }
+
     let firstElementInNums2 = nums2.shift();
 
     nums1.every((element, index) => {
